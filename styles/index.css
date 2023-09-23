@@ -38,10 +38,20 @@ h1 {
     width: 380px;
     height: 300px;
     display: flex;
+    flex-direction: column;
+    position: relative;
     align-items: center;    
-    justify-content: center;
+    justify-content: flex-start;
     border: 1px solid red;
 
+}
+.box-top {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    
 }
 .footer {
     width: 100%;
@@ -60,4 +70,5 @@ h2 {
 }
 h3 {
     font-family: 'Major Mono Display', monospace, sans-serif;
+    align-self: center;
 }
