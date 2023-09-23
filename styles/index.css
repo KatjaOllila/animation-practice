@@ -48,3 +48,12 @@ h1 {
 img {
     display: flex;
 }
+h2 {
+    color: blue;
+    font-family: 'Major Mono Display', monospace, 'Mooli', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 35px;
+
+
+}
