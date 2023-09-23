@@ -13,8 +13,8 @@ body {
 }
 h1 {
     color: blue;
-    font-family: 'Titan One', sans-serif;
-    font-size: 40px;    
+    font-family: 'Major Mono Display', monospace, sans-serif;
+    font-size: 48px;    
     letter-spacing: 2px;
     display: flex;
     align-self: center;
@@ -46,12 +46,19 @@ h1 {
 
 }
 .box-top {
-    width: 200px;
+    width: 280px;
     height: 30px;
     border: 1px solid black;
     display: flex;
     position: relative;
     
+}
+.box-bottom {
+    width: 280px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
 }
 .footer {
     width: 100%;
@@ -69,6 +76,14 @@ h2 {
     line-height: 35px;
 }
 h3 {
+    color: green;
     font-family: 'Major Mono Display', monospace, sans-serif;
     align-self: center;
+    
+}
+p {
+    color: green;
+    font-family: 'Major Mono Display', monospace, sans-serif;
+    font-size: 13px;
+    align-self: center; 
 }
