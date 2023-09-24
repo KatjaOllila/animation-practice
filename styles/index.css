@@ -7,9 +7,7 @@ body {
     width: 100%;
     height: 60px;
     display: flex;
-    justify-content: center;    
-    border: 3px solid greenyellow;
-    
+    justify-content: center;        
 }
 h1 {
     color: blue;
@@ -21,10 +19,8 @@ h1 {
 }
 .presentation {
     width: 100%;
-    height: 150px;   
-      
+    height: 150px;       
 }
-
 .guests {
     width: 100%;
     height: 300px;    
@@ -32,7 +28,6 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 .guest-card {
     width: 380px;
@@ -42,21 +37,16 @@ h1 {
     position: relative;
     align-items: center;    
     justify-content: flex-start;
-    border: 1px solid greenyellow;
-
 }
 .box-top {
     width: 280px;
-    height: 30px;
-    border: 1px solid black;
+    height: 30px;    
     display: flex;
-    position: relative;
-    
+    position: relative;    
 }
 .box-bottom {
     width: 280px;
-    height: 60px;
-    border: 1px solid black;
+    height: 60px;    
     display: flex;
     position: relative;
 }
@@ -67,17 +57,15 @@ h1 {
     justify-content: center;
     margin-top: 10px;
 }
-
 img {
     display: flex;
-    border-radius: 5%;
-    
+    border-radius: 5%;    
 }
 img:hover {
     animation: imgZoom 2s;
 }
 h2 {
-    color: blue;
+    color: green;
     font-family: 'Major Mono Display', monospace, sans-serif;
     font-weight: 400px;
     text-align: left;
@@ -100,7 +88,6 @@ button {
     height:50px;
     background-color: red;
     border-radius: 5%;
-
 }
 button:hover {
     background-color: rgb(227, 104, 104);
