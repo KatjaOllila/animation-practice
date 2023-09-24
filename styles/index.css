@@ -21,15 +21,13 @@ h1 {
 }
 .presentation {
     width: 100%;
-    height: 150px;
-    background-color: aquamarine;
+    height: 150px;   
       
 }
 
 .guests {
     width: 100%;
-    height: 300px;
-    background-color: blueviolet;
+    height: 300px;    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -44,7 +42,7 @@ h1 {
     position: relative;
     align-items: center;    
     justify-content: flex-start;
-    border: 1px solid red;
+    border: 1px solid greenyellow;
 
 }
 .box-top {
@@ -65,10 +63,14 @@ h1 {
 .footer {
     width: 100%;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 img {
     display: flex;
+    border-radius: 5%;
 }
 h2 {
     color: blue;
@@ -88,4 +90,11 @@ p {
     font-family: 'Major Mono Display', monospace, sans-serif;
     font-size: 13px;
     align-self: center; 
+}
+button {
+    width: 300px;
+    height:50px;
+    background-color: red;
+    border-radius: 5%;
+
 }
